@@ -1,0 +1,884 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1C3C966-4ABA-4441-A98F-BE4CD44AB3AF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ArtTrash</RootNamespace>
+    <AssemblyName>ArtTrash</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44322</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\spacelab.bootstrap.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="image\AEC_logo.png" />
+    <Content Include="image\arrow-left.svg" />
+    <Content Include="image\arrow-right.svg" />
+    <Content Include="image\Avatar01.png" />
+    <Content Include="image\Avatar03.png" />
+    <Content Include="image\bank-of-sydney-logo.jpg" />
+    <Content Include="image\campus-img.jpeg" />
+    <Content Include="image\chevron-down-gray.svg" />
+    <Content Include="image\chevron-right.svg" />
+    <Content Include="image\close-circle-danger.svg" />
+    <Content Include="image\close-circle-gray.svg" />
+    <Content Include="image\close-x-circle.svg" />
+    <Content Include="image\default-user-avatar.svg" />
+    <Content Include="image\demo\100x100.png" />
+    <Content Include="image\demo\249x100.png" />
+    <Content Include="image\demo\300x300.png" />
+    <Content Include="image\demo\348x261.png" />
+    <Content Include="image\demo\348x400.png" />
+    <Content Include="image\demo\474x356.png" />
+    <Content Include="image\demo\60x60.png" />
+    <Content Include="image\demo\a.png" />
+    <Content Include="image\demo\avatar.png" />
+    <Content Include="image\demo\backgrounds\01.png" />
+    <Content Include="image\demo\backgrounds\index.html" />
+    <Content Include="image\demo\gallery\01.png" />
+    <Content Include="image\demo\gallery\index.html" />
+    <Content Include="image\demo\imgl.gif" />
+    <Content Include="image\demo\imgr.gif" />
+    <Content Include="image\demo\index.html" />
+    <Content Include="image\dropdown-caret.svg" />
+    <Content Include="image\due-dollar-coin.svg" />
+    <Content Include="image\fae-eye-closed.svg" />
+    <Content Include="image\fae-eye.svg" />
+    <Content Include="image\favicon.ico" />
+    <Content Include="image\fea-add-image.svg" />
+    <Content Include="image\fea-addsquare.svg" />
+    <Content Include="image\fea-archive-white.svg" />
+    <Content Include="image\fea-arrow-right.svg" />
+    <Content Include="image\fea-assessment-active.svg" />
+    <Content Include="image\fea-assessment.svg" />
+    <Content Include="image\fea-audit-trails-active.svg" />
+    <Content Include="image\fea-audit-trails.svg" />
+    <Content Include="image\fea-autosave.svg" />
+    <Content Include="image\fea-bank.svg" />
+    <Content Include="image\fea-bell.svg" />
+    <Content Include="image\fea-calendar-primary.svg" />
+    <Content Include="image\fea-calendar-white.svg" />
+    <Content Include="image\fea-calendar.svg" />
+    <Content Include="image\fea-camera-active.svg" />
+    <Content Include="image\fea-camera-success.svg" />
+    <Content Include="image\fea-camera.svg" />
+    <Content Include="image\fea-cancel-creditnote-active.svg" />
+    <Content Include="image\fea-cancel-creditnote-white.svg" />
+    <Content Include="image\fea-cancel-creditnote.svg" />
+    <Content Include="image\fea-cancel-payment-active.svg" />
+    <Content Include="image\fea-cancel-payment-white.svg" />
+    <Content Include="image\fea-cancel-payment.svg" />
+    <Content Include="image\fea-cancel-refund-active.svg" />
+    <Content Include="image\fea-cancel-refund-white.svg" />
+    <Content Include="image\fea-cancel-refund.svg" />
+    <Content Include="image\fea-cancel-upload.svg" />
+    <Content Include="image\fea-cancelreceipt-active.svg" />
+    <Content Include="image\fea-cancelreceipt-white.svg" />
+    <Content Include="image\fea-cancelreceipt.svg" />
+    <Content Include="image\fea-change-image.svg" />
+    <Content Include="image\fea-check-green.svg" />
+    <Content Include="image\fea-check-white.svg" />
+    <Content Include="image\fea-check.svg" />
+    <Content Include="image\fea-chevron-down.svg" />
+    <Content Include="image\fea-class.svg" />
+    <Content Include="image\fea-close-x-white.svg" />
+    <Content Include="image\fea-close-x.svg" />
+    <Content Include="image\fea-copy-active.svg" />
+    <Content Include="image\fea-copy.svg" />
+    <Content Include="image\fea-creditnote-active.svg" />
+    <Content Include="image\fea-creditnote-white.svg" />
+    <Content Include="image\fea-creditnote.svg" />
+    <Content Include="image\fea-cross-red.svg" />
+    <Content Include="image\fea-cross.svg" />
+    <Content Include="image\fea-cube.svg" />
+    <Content Include="image\fea-decline-white.svg" />
+    <Content Include="image\fea-delete-active.svg" />
+    <Content Include="image\fea-delete.svg" />
+    <Content Include="image\fea-doc-excel.svg" />
+    <Content Include="image\fea-doc-pdf.svg" />
+    <Content Include="image\fea-doc-word.svg" />
+    <Content Include="image\fea-edit-active.svg" />
+    <Content Include="image\fea-edit-label.svg" />
+    <Content Include="image\fea-edit-white.svg" />
+    <Content Include="image\fea-edit.svg" />
+    <Content Include="image\fea-email-active.svg" />
+    <Content Include="image\fea-email-success.svg" />
+    <Content Include="image\fea-email-white.svg" />
+    <Content Include="image\fea-email.svg" />
+    <Content Include="image\fea-fee-active.svg" />
+    <Content Include="image\fea-fee.svg" />
+    <Content Include="image\fea-filter.svg" />
+    <Content Include="image\fea-financial.svg" />
+    <Content Include="image\fea-flow.svg" />
+    <Content Include="image\fea-green-check.svg" />
+    <Content Include="image\fea-grid-white.svg" />
+    <Content Include="image\fea-grid.svg" />
+    <Content Include="image\fea-help-circle-danger.svg" />
+    <Content Include="image\fea-info-alert.svg" />
+    <Content Include="image\fea-info-circle-active.svg" />
+    <Content Include="image\fea-info-circle.svg" />
+    <Content Include="image\fea-instalment-active.svg" />
+    <Content Include="image\fea-instalment-white.svg" />
+    <Content Include="image\fea-instalment.svg" />
+    <Content Include="image\fea-intake-active.svg" />
+    <Content Include="image\fea-intake.svg" />
+    <Content Include="image\fea-invoice-add-active.svg" />
+    <Content Include="image\fea-invoice-add-white.svg" />
+    <Content Include="image\fea-invoice-add.svg" />
+    <Content Include="image\fea-invoice-remove-active.svg" />
+    <Content Include="image\fea-invoice-remove-white.svg" />
+    <Content Include="image\fea-invoice-remove.svg" />
+    <Content Include="image\fea-list-white.svg" />
+    <Content Include="image\fea-list.svg" />
+    <Content Include="image\fea-lock-white.svg" />
+    <Content Include="image\fea-merge-active.svg" />
+    <Content Include="image\fea-merge.svg" />
+    <Content Include="image\fea-message-success.svg" />
+    <Content Include="image\fea-minus-circle-gray.svg" />
+    <Content Include="image\fea-minus-circle-red.svg" />
+    <Content Include="image\fea-more-vertical.svg" />
+    <Content Include="image\fea-new-applicant.svg" />
+    <Content Include="image\fea-organisation.svg" />
+    <Content Include="image\fea-phone-active.svg" />
+    <Content Include="image\fea-phone-success.svg" />
+    <Content Include="image\fea-phone-white.svg" />
+    <Content Include="image\fea-phone.svg" />
+    <Content Include="image\fea-plus-circle-gray.svg" />
+    <Content Include="image\fea-plus-circle-info.svg" />
+    <Content Include="image\fea-plus-circle.svg" />
+    <Content Include="image\fea-plus-gray.svg" />
+    <Content Include="image\fea-plus-info.svg" />
+    <Content Include="image\fea-plus-white.svg" />
+    <Content Include="image\fea-print-active.svg" />
+    <Content Include="image\fea-print-white.svg" />
+    <Content Include="image\fea-print.svg" />
+    <Content Include="image\fea-receipt-active.svg" />
+    <Content Include="image\fea-receipt-white.svg" />
+    <Content Include="image\fea-receipt.svg" />
+    <Content Include="image\fea-refresh.svg" />
+    <Content Include="image\fea-refund-active.svg" />
+    <Content Include="image\fea-refund-white.svg" />
+    <Content Include="image\fea-refund.svg" />
+    <Content Include="image\fea-save.svg" />
+    <Content Include="image\fea-search.svg" />
+    <Content Include="image\fea-send-white.svg" />
+    <Content Include="image\fea-setup.svg" />
+    <Content Include="image\fea-smile-active.svg" />
+    <Content Include="image\fea-smile.svg" />
+    <Content Include="image\fea-sms-active.svg" />
+    <Content Include="image\fea-sms-white.svg" />
+    <Content Include="image\fea-sms.svg" />
+    <Content Include="image\fea-term-schedule.svg" />
+    <Content Include="image\fea-text-format-active.svg" />
+    <Content Include="image\fea-text-format.svg" />
+    <Content Include="image\fea-timetable.svg" />
+    <Content Include="image\fea-transfer-left-active.svg" />
+    <Content Include="image\fea-transfer-left.svg" />
+    <Content Include="image\fea-transfer-right-active.svg" />
+    <Content Include="image\fea-transfer-right.svg" />
+    <Content Include="image\fea-transfer.svg" />
+    <Content Include="image\fea-trash-label.svg" />
+    <Content Include="image\fea-unmerge-active.svg" />
+    <Content Include="image\fea-unmerge.svg" />
+    <Content Include="image\fea-unread-white.svg" />
+    <Content Include="image\fea-upload-td-active.svg" />
+    <Content Include="image\fea-upload-td.svg" />
+    <Content Include="image\fea-upload-white.svg" />
+    <Content Include="image\fea-upload.svg" />
+    <Content Include="image\fea-uploadimg.svg" />
+    <Content Include="image\fea-user-img.svg" />
+    <Content Include="image\fea-user-permission.svg" />
+    <Content Include="image\fea-users.svg" />
+    <Content Include="image\fea-view-active.svg" />
+    <Content Include="image\fea-view.svg" />
+    <Content Include="image\fullcalendar.png" />
+    <Content Include="image\fullN.png" />
+    <Content Include="image\icons8-trading-32.png" />
+    <Content Include="image\icons8-trading-64.png" />
+    <Content Include="image\instalment-tag-due.png" />
+    <Content Include="image\instalment-tag-overdue.png" />
+    <Content Include="image\instalment-tag-paid.png" />
+    <Content Include="image\instalment-tag-upcoming.png" />
+    <Content Include="image\logo-sm.png" />
+    <Content Include="image\logo-sm.svg" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\logo.svg" />
+    <Content Include="image\logoKiosco.png" />
+    <Content Include="image\logoKioscoNAV.png" />
+    <Content Include="image\logoN.png" />
+    <Content Include="image\logoNeptuno.png" />
+    <Content Include="image\logoNeptunoNAV.png" />
+    <Content Include="image\menu-icon\fea-email.svg" />
+    <Content Include="image\menu-icon\fea-sms.svg" />
+    <Content Include="image\menu-icon\menu-Course.svg" />
+    <Content Include="image\menu-icon\menu-dashboard.svg" />
+    <Content Include="image\menu-icon\menu-Logout.svg" />
+    <Content Include="image\menu-icon\menu-Privacy.svg" />
+    <Content Include="image\menu-icon\menu-Settings.svg" />
+    <Content Include="image\menu-icon\menu-Students.svg" />
+    <Content Include="image\menu-icon\menu-Timetable.svg" />
+    <Content Include="image\menu-icon\menu-UoC.svg" />
+    <Content Include="image\menu-icon\menu-User.svg" />
+    <Content Include="image\minus-square-red.svg" />
+    <Content Include="image\n.png" />
+    <Content Include="image\neptuno.png" />
+    <Content Include="image\openbook-blue.svg" />
+    <Content Include="image\openbook-green.svg" />
+    <Content Include="image\openbook-orange.svg" />
+    <Content Include="image\openbook-red.svg" />
+    <Content Include="image\overdue-dollar-coin.svg" />
+    <Content Include="image\paid-dollar-coin.svg" />
+    <Content Include="image\pdf32.png" />
+    <Content Include="image\pexels-photo-220453.jpeg" />
+    <Content Include="image\rto-logo.png" />
+    <Content Include="image\smiley-widget.png" />
+    <Content Include="image\sort-down.svg" />
+    <Content Include="image\sort-up.svg" />
+    <Content Include="image\sort.svg" />
+    <Content Include="image\switch-knob.svg" />
+    <Content Include="image\tooltip-top-white.svg" />
+    <Content Include="image\tooltip-top.svg" />
+    <Content Include="image\ui-icons_444444_256x240.png" />
+    <Content Include="image\upcoming-dollar-coin.svg" />
+    <Content Include="image\user-default-avatar.png" />
+    <Content Include="image\user-default-avatar.svg" />
+    <Content Include="image\user-image.jpeg" />
+    <Content Include="image\user-Image.png" />
+    <Content Include="image\working.gif" />
+    <Content Include="Img\937737.png" />
+    <Content Include="Img\art.png" />
+    <Content Include="Img\cash-512.png" />
+    <Content Include="Img\circulo.jpg" />
+    <Content Include="Img\edit16.png" />
+    <Content Include="Img\glass24.png" />
+    <Content Include="Img\glass32.png" />
+    <Content Include="Img\lightbulb-512.png" />
+    <Content Include="Img\log.jpg" />
+    <Content Include="Img\logo.png" />
+    <Content Include="Img\mac-512.png" />
+    <Content Include="Img\no16.png" />
+    <Content Include="Img\no24.png" />
+    <Content Include="Img\notes.png" />
+    <Content Include="Img\ok16.png" />
+    <Content Include="Img\ok24.png" />
+    <Content Include="Img\pdf_16.png" />
+    <Content Include="Img\plus_16.png" />
+    <Content Include="Img\plus_32.png" />
+    <Content Include="Img\progressbar.gif" />
+    <Content Include="Img\search.png" />
+    <Content Include="Img\search_16.png" />
+    <Content Include="Img\SesionExpirada.jpg" />
+    <Content Include="Img\SesionExpirada.png" />
+    <Content Include="Img\sneakers-512.png" />
+    <Content Include="Img\trash.png" />
+    <Content Include="Img\up_16.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Pages\ImportStock.aspx" />
+    <Content Include="Pages\Information.aspx" />
+    <Content Include="Pages\Stock.aspx" />
+    <Content Include="Web References\Service\EventsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\InscriptionsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\PaymentsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\ProductsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\Product_typeDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\PromotionsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\Promotions_ProductsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Web References\Service\RolesDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\SalesDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\Sales_detailsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\Sales_PaymentsDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\SecurityDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\Service\Service.disco" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Pages\AddBrands.aspx" />
+    <Content Include="Pages\AddNewProduct.aspx" />
+    <Content Include="Pages\AdminEditProduct.aspx" />
+    <Content Include="Pages\AdminEditPromotion.aspx" />
+    <Content Include="Pages\BrandDetails.aspx" />
+    <Content Include="Pages\BrandEventDetails.aspx" />
+    <Content Include="Pages\BrandProductSales.aspx" />
+    <Content Include="Pages\EditEvent.aspx" />
+    <Content Include="Pages\EditProduct.aspx" />
+    <Content Include="Pages\EditPromotion.aspx" />
+    <Content Include="Pages\EventDetails.aspx" />
+    <Content Include="Pages\Events.aspx" />
+    <Content Include="Pages\FrequentQuestions.aspx" />
+    <Content Include="Pages\ListBrands.aspx" />
+    <Content Include="Pages\Menu.aspx" />
+    <Content Include="Pages\MetricsMenu.aspx" />
+    <Content Include="Pages\NewPromotion.aspx" />
+    <Content Include="Pages\PercentageProdutTypeSales.aspx" />
+    <Content Include="Pages\PercentageProfitMetrics.aspx" />
+    <Content Include="Pages\PercentageSalesMetrics.aspx" />
+    <Content Include="Pages\Permisos.aspx" />
+    <Content Include="Pages\Products.aspx" />
+    <Content Include="Pages\NewEvent.aspx" />
+    <Content Include="Pages\NewProduct.aspx" />
+    <Content Include="Pages\NewSale.aspx" />
+    <Content Include="Pages\ProductSaleMetrics.aspx" />
+    <Content Include="Pages\SaleDetails.aspx" />
+    <Content Include="Pages\Sales.aspx" />
+    <Content Include="Pages\SalesListEvent.aspx" />
+    <Content Include="Pages\SalesListEventDetails.aspx" />
+    <Content Include="Pages\StockListEvent.aspx" />
+    <Content Include="Pages\StockListEventDetails.aspx" />
+    <Content Include="Pages\TotalBrandsMetrics.aspx" />
+    <Content Include="Pages\TotalEventMetrics.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="style\custom.css.map" />
+    <Content Include="style\custom.scss" />
+    <Content Include="style\fontawesome\scss\brands.css.map" />
+    <Content Include="style\fontawesome\scss\brands.scss" />
+    <Content Include="style\fontawesome\scss\fontawesome.css.map" />
+    <Content Include="style\fontawesome\scss\fontawesome.scss" />
+    <Content Include="style\fontawesome\scss\regular.css.map" />
+    <Content Include="style\fontawesome\scss\regular.scss" />
+    <Content Include="style\fontawesome\scss\solid.css.map" />
+    <Content Include="style\fontawesome\scss\solid.scss" />
+    <Content Include="style\fontawesome\scss\v4-shims.css.map" />
+    <Content Include="style\fontawesome\scss\v4-shims.scss" />
+    <Content Include="style\fontawesome\scss\_animated.scss" />
+    <Content Include="style\fontawesome\scss\_bordered-pulled.scss" />
+    <Content Include="style\fontawesome\scss\_core.scss" />
+    <Content Include="style\fontawesome\scss\_fixed-width.scss" />
+    <Content Include="style\fontawesome\scss\_icons.scss" />
+    <Content Include="style\fontawesome\scss\_larger.scss" />
+    <Content Include="style\fontawesome\scss\_list.scss" />
+    <Content Include="style\fontawesome\scss\_mixins.scss" />
+    <Content Include="style\fontawesome\scss\_rotated-flipped.scss" />
+    <Content Include="style\fontawesome\scss\_screen-reader.scss" />
+    <Content Include="style\fontawesome\scss\_shims.scss" />
+    <Content Include="style\fontawesome\scss\_stacked.scss" />
+    <Content Include="style\fontawesome\scss\_variables.scss" />
+    <Content Include="style\style.css.map" />
+    <Content Include="style\style.scss" />
+    <Content Include="style\table.css.map" />
+    <Content Include="style\table.scss" />
+    <Content Include="style\var.css.map" />
+    <Content Include="style\var.scss" />
+    <None Include="Web References\ReportsService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ReportsService\Service.disco" />
+    <None Include="Web References\ReportsService\Service.wsdl" />
+    <Content Include="script\bootstrap.bundle.min.js" />
+    <Content Include="script\custom.js" />
+    <Content Include="script\dataTables.bootstrap5.min.js" />
+    <Content Include="script\dataTables.jqueryui.min.js" />
+    <Content Include="script\dataTables.select.min.js" />
+    <Content Include="script\editor.js" />
+    <Content Include="script\jquery-3.5.1.slim.min.js" />
+    <Content Include="script\jquery.dataTables.min.js" />
+    <Content Include="style\bootstrap.min.css" />
+    <Content Include="style\custom.css" />
+    <Content Include="style\dataTables.bootstrap5.min.css" />
+    <Content Include="style\dataTables.jqueryui.min.css" />
+    <Content Include="style\editor.css" />
+    <Content Include="style\fontawesome\scss\brands.css" />
+    <Content Include="style\fontawesome\scss\fontawesome.css" />
+    <Content Include="style\fontawesome\scss\regular.css" />
+    <Content Include="style\fontawesome\scss\solid.css" />
+    <Content Include="style\fontawesome\scss\v4-shims.css" />
+    <Content Include="style\jquery-ui.css" />
+    <Content Include="style\select.bootstrap5.min.css" />
+    <Content Include="style\select.jqueryui.min.css" />
+    <Content Include="style\style.css" />
+    <Content Include="style\table.css" />
+    <Content Include="style\var.css" />
+    <Content Include="Web.config" />
+    <Content Include="webfonts\fa-brands-400.eot" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.woff" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-regular-400.eot" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.woff" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-solid-900.eot" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.woff" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Logger.cs" />
+    <Compile Include="Helper\ServiceHelper.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MetricsResume.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Promo.cs" />
+    <Compile Include="Models\Sale.cs" />
+    <Compile Include="Models\StockModel.cs" />
+    <Compile Include="Models\StockPrintModel.cs" />
+    <Compile Include="Pages\AddBrands.aspx.cs">
+      <DependentUpon>AddBrands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddBrands.aspx.designer.cs">
+      <DependentUpon>AddBrands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddNewProduct.aspx.cs">
+      <DependentUpon>AddNewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddNewProduct.aspx.designer.cs">
+      <DependentUpon>AddNewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminEditProduct.aspx.cs">
+      <DependentUpon>AdminEditProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AdminEditProduct.aspx.designer.cs">
+      <DependentUpon>AdminEditProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminEditPromotion.aspx.cs">
+      <DependentUpon>AdminEditPromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AdminEditPromotion.aspx.designer.cs">
+      <DependentUpon>AdminEditPromotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BrandDetails.aspx.cs">
+      <DependentUpon>BrandDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BrandDetails.aspx.designer.cs">
+      <DependentUpon>BrandDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BrandEventDetails.aspx.cs">
+      <DependentUpon>BrandEventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BrandEventDetails.aspx.designer.cs">
+      <DependentUpon>BrandEventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BrandProductSales.aspx.cs">
+      <DependentUpon>BrandProductSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BrandProductSales.aspx.designer.cs">
+      <DependentUpon>BrandProductSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditEvent.aspx.cs">
+      <DependentUpon>EditEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditEvent.aspx.designer.cs">
+      <DependentUpon>EditEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditProduct.aspx.cs">
+      <DependentUpon>EditProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditProduct.aspx.designer.cs">
+      <DependentUpon>EditProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditPromotion.aspx.cs">
+      <DependentUpon>EditPromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditPromotion.aspx.designer.cs">
+      <DependentUpon>EditPromotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EventDetails.aspx.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EventDetails.aspx.designer.cs">
+      <DependentUpon>EventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FrequentQuestions.aspx.cs">
+      <DependentUpon>FrequentQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FrequentQuestions.aspx.designer.cs">
+      <DependentUpon>FrequentQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ImportStock.aspx.cs">
+      <DependentUpon>ImportStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ImportStock.aspx.designer.cs">
+      <DependentUpon>ImportStock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Information.aspx.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Information.aspx.designer.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListBrands.aspx.cs">
+      <DependentUpon>ListBrands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ListBrands.aspx.designer.cs">
+      <DependentUpon>ListBrands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MetricsMenu.aspx.cs">
+      <DependentUpon>MetricsMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\MetricsMenu.aspx.designer.cs">
+      <DependentUpon>MetricsMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewPromotion.aspx.cs">
+      <DependentUpon>NewPromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NewPromotion.aspx.designer.cs">
+      <DependentUpon>NewPromotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PercentageProdutTypeSales.aspx.cs">
+      <DependentUpon>PercentageProdutTypeSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PercentageProdutTypeSales.aspx.designer.cs">
+      <DependentUpon>PercentageProdutTypeSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PercentageProfitMetrics.aspx.cs">
+      <DependentUpon>PercentageProfitMetrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PercentageProfitMetrics.aspx.designer.cs">
+      <DependentUpon>PercentageProfitMetrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PercentageSalesMetrics.aspx.cs">
+      <DependentUpon>PercentageSalesMetrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PercentageSalesMetrics.aspx.designer.cs">
+      <DependentUpon>PercentageSalesMetrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Permisos.aspx.cs">
+      <DependentUpon>Permisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Permisos.aspx.designer.cs">
+      <DependentUpon>Permisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewEvent.aspx.cs">
+      <DependentUpon>NewEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NewEvent.aspx.designer.cs">
+      <DependentUpon>NewEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewProduct.aspx.cs">
+      <DependentUpon>NewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NewProduct.aspx.designer.cs">
+      <DependentUpon>NewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewSale.aspx.cs">
+      <DependentUpon>NewSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NewSale.aspx.designer.cs">
+      <DependentUpon>NewSale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProductSaleMetrics.aspx.cs">
+      <DependentUpon>ProductSaleMetrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ProductSaleMetrics.aspx.designer.cs">
+      <DependentUpon>ProductSaleMetrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SaleDetails.aspx.cs">
+      <DependentUpon>SaleDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SaleDetails.aspx.designer.cs">
+      <DependentUpon>SaleDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales.aspx.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Sales.aspx.designer.cs">
+      <DependentUpon>Sales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SalesListEvent.aspx.cs">
+      <DependentUpon>SalesListEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SalesListEvent.aspx.designer.cs">
+      <DependentUpon>SalesListEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SalesListEventDetails.aspx.cs">
+      <DependentUpon>SalesListEventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SalesListEventDetails.aspx.designer.cs">
+      <DependentUpon>SalesListEventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Stock.aspx.cs">
+      <DependentUpon>Stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Stock.aspx.designer.cs">
+      <DependentUpon>Stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StockListEvent.aspx.cs">
+      <DependentUpon>StockListEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StockListEvent.aspx.designer.cs">
+      <DependentUpon>StockListEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StockListEventDetails.aspx.cs">
+      <DependentUpon>StockListEventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StockListEventDetails.aspx.designer.cs">
+      <DependentUpon>StockListEventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TotalBrandsMetrics.aspx.cs">
+      <DependentUpon>TotalBrandsMetrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TotalBrandsMetrics.aspx.designer.cs">
+      <DependentUpon>TotalBrandsMetrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TotalEventMetrics.aspx.cs">
+      <DependentUpon>TotalEventMetrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TotalEventMetrics.aspx.designer.cs">
+      <DependentUpon>TotalEventMetrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ReportsService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+    <None Include="Web References\Service\Service.wsdl" />
+    <Content Include="Web References\Service\StockDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\Service\UsersDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ART-TRASH-SERVICE\ArtTrashService.csproj">
+      <Project>{BD096ACD-0203-4B7E-BC04-93A7A89BECA2}</Project>
+      <Name>ArtTrashService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://190.244.98.245:8053/ReportsService/">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ReportsService\</RelPath>
+      <UpdateFromURL>http://190.244.98.245:8053/ReportsService/</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ArtTrash_ReportsService_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:55370/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Service\</RelPath>
+      <UpdateFromURL>http://localhost:55370/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ArtTrash_Service_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52758</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44322/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

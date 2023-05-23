@@ -1,0 +1,1371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\gongm\OneDrive\Escritorio\art</_PublishTargetUrl>
+    <History>True|2023-04-16T20:19:47.5384011Z;True|2022-10-03T18:39:04.3372035-03:00;True|2022-10-03T18:25:55.6670423-03:00;True|2022-10-03T08:08:39.7166736-03:00;True|2022-09-09T00:14:48.7392054-03:00;True|2022-09-08T01:00:38.7053560-03:00;True|2022-09-06T16:43:31.9766274-03:00;True|2022-09-06T16:34:56.3117457-03:00;True|2022-08-06T15:32:25.1205406-03:00;True|2022-08-05T14:22:06.8674442-03:00;True|2022-08-01T21:18:55.7409438-03:00;True|2022-08-01T20:59:36.4887186-03:00;True|2022-07-08T01:18:36.6447330-03:00;True|2022-07-08T01:09:56.0096198-03:00;True|2022-07-05T16:24:59.2927330-03:00;True|2022-06-16T14:41:34.0231947-03:00;True|2022-06-16T13:53:16.6276895-03:00;True|2022-06-16T01:18:49.1684956-03:00;True|2022-06-16T00:48:40.5665571-03:00;True|2022-06-16T00:33:06.9893750-03:00;True|2022-06-16T00:17:10.0971034-03:00;True|2022-06-15T20:24:15.4009911-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ArtTrash.dll">
+      <publishTime>04/16/2023 17:19:45</publishTime>
+    </File>
+    <File Include="bin/ArtTrash.pdb">
+      <publishTime>04/16/2023 17:19:45</publishTime>
+    </File>
+    <File Include="bin/ArtTrash.XmlSerializers.dll">
+      <publishTime>04/16/2023 17:19:45</publishTime>
+    </File>
+    <File Include="bin/ArtTrashService.dll">
+      <publishTime>04/16/2023 17:19:45</publishTime>
+    </File>
+    <File Include="bin/ArtTrashService.dll.config">
+      <publishTime>04/16/2023 17:10:57</publishTime>
+    </File>
+    <File Include="bin/ArtTrashService.pdb">
+      <publishTime>04/16/2023 17:19:45</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>02/10/2009 12:40:00</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>02/10/2009 12:39:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>02/10/2022 17:46:07</publishTime>
+    </File>
+    <File Include="Css/bootstrap.min.css">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Css/spacelab.bootstrap.min.css">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/25/2022 14:30:34</publishTime>
+    </File>
+    <File Include="image/AEC_logo.png">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/arrow-left.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/arrow-right.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/Avatar01.png">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/Avatar03.png">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/bank-of-sydney-logo.jpg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/campus-img.jpeg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/chevron-down-gray.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/chevron-right.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/close-circle-danger.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/close-circle-gray.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/close-x-circle.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/default-user-avatar.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/demo/100x100.png">
+      <publishTime>04/21/2018 08:36:33</publishTime>
+    </File>
+    <File Include="image/demo/249x100.png">
+      <publishTime>04/10/2018 05:49:56</publishTime>
+    </File>
+    <File Include="image/demo/300x300.png">
+      <publishTime>04/25/2018 09:17:42</publishTime>
+    </File>
+    <File Include="image/demo/348x261.png">
+      <publishTime>04/10/2018 05:44:24</publishTime>
+    </File>
+    <File Include="image/demo/348x400.png">
+      <publishTime>05/09/2018 07:29:09</publishTime>
+    </File>
+    <File Include="image/demo/474x356.png">
+      <publishTime>09/14/2017 16:28:28</publishTime>
+    </File>
+    <File Include="image/demo/60x60.png">
+      <publishTime>05/20/2016 11:46:09</publishTime>
+    </File>
+    <File Include="image/demo/a.png">
+      <publishTime>05/09/2018 07:29:09</publishTime>
+    </File>
+    <File Include="image/demo/avatar.png">
+      <publishTime>06/11/2014 20:35:19</publishTime>
+    </File>
+    <File Include="image/demo/backgrounds/01.png">
+      <publishTime>05/07/2018 18:15:34</publishTime>
+    </File>
+    <File Include="image/demo/backgrounds/index.html">
+      <publishTime>05/07/2018 19:21:31</publishTime>
+    </File>
+    <File Include="image/demo/gallery/01.png">
+      <publishTime>01/26/2015 10:04:22</publishTime>
+    </File>
+    <File Include="image/demo/gallery/index.html">
+      <publishTime>05/07/2018 19:21:31</publishTime>
+    </File>
+    <File Include="image/demo/imgl.gif">
+      <publishTime>02/05/2010 08:19:35</publishTime>
+    </File>
+    <File Include="image/demo/imgr.gif">
+      <publishTime>02/05/2010 08:44:51</publishTime>
+    </File>
+    <File Include="image/demo/index.html">
+      <publishTime>05/07/2018 19:21:31</publishTime>
+    </File>
+    <File Include="image/dropdown-caret.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/due-dollar-coin.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fae-eye-closed.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fae-eye.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/favicon.ico">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-add-image.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-addsquare.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-archive-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-arrow-right.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-assessment-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-assessment.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-audit-trails-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-audit-trails.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-autosave.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-bank.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-bell.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-calendar-primary.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-calendar-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-calendar.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-camera-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-camera-success.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-camera.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-creditnote-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-creditnote-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-creditnote.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-payment-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-payment-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-payment.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-refund-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-refund-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-refund.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancel-upload.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancelreceipt-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancelreceipt-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cancelreceipt.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-change-image.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-check-green.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-check-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-check.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-chevron-down.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-class.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-close-x-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-close-x.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-copy-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-copy.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-creditnote-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-creditnote-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-creditnote.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cross-red.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cross.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-cube.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-decline-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-delete-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-delete.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-doc-excel.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-doc-pdf.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-doc-word.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-edit-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-edit-label.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-edit-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-edit.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-email-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-email-success.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-email-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-email.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-fee-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-fee.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-filter.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-financial.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-flow.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-green-check.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-grid-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-grid.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-help-circle-danger.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-info-alert.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-info-circle-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-info-circle.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-instalment-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-instalment-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-instalment.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-intake-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-intake.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-add-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-add-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-add.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-remove-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-remove-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-invoice-remove.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-list-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-list.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-lock-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-merge-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-merge.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-message-success.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-minus-circle-gray.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-minus-circle-red.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-more-vertical.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-new-applicant.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-organisation.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-phone-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-phone-success.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-phone-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-phone.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-circle-gray.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-circle-info.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-circle.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-gray.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-info.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-plus-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-print-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-print-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-print.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-receipt-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-receipt-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-receipt.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-refresh.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-refund-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-refund-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-refund.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-save.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-search.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-send-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-setup.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-smile-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-smile.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-sms-active.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-sms-white.svg">
+      <publishTime>07/23/2022 19:03:43</publishTime>
+    </File>
+    <File Include="image/fea-sms.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-term-schedule.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-text-format-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-text-format.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-timetable.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-transfer-left-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-transfer-left.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-transfer-right-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-transfer-right.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-transfer.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-trash-label.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-unmerge-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-unmerge.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-unread-white.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-upload-td-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-upload-td.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-upload-white.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-upload.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-uploadimg.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-user-img.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-user-permission.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-users.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-view-active.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fea-view.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fullcalendar.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/fullN.png">
+      <publishTime>08/31/2022 18:20:14</publishTime>
+    </File>
+    <File Include="image/icons8-trading-32.png">
+      <publishTime>08/14/2022 17:35:17</publishTime>
+    </File>
+    <File Include="image/icons8-trading-64.png">
+      <publishTime>08/14/2022 17:39:58</publishTime>
+    </File>
+    <File Include="image/instalment-tag-due.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/instalment-tag-overdue.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/instalment-tag-paid.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/instalment-tag-upcoming.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/logo-sm.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/logo-sm.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/logo.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/logo.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/logoKiosco.png">
+      <publishTime>08/02/2022 23:09:11</publishTime>
+    </File>
+    <File Include="image/logoKioscoNAV.png">
+      <publishTime>08/02/2022 23:09:11</publishTime>
+    </File>
+    <File Include="image/logoN.png">
+      <publishTime>08/31/2022 18:17:47</publishTime>
+    </File>
+    <File Include="image/logoNeptuno.png">
+      <publishTime>08/02/2022 23:09:11</publishTime>
+    </File>
+    <File Include="image/logoNeptunoNAV.png">
+      <publishTime>08/02/2022 23:09:11</publishTime>
+    </File>
+    <File Include="image/menu-icon/fea-email.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/fea-sms.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Course.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-dashboard.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Logout.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Privacy.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Settings.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Students.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-Timetable.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-UoC.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/menu-icon/menu-User.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/minus-square-red.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/n.png">
+      <publishTime>08/31/2022 18:15:11</publishTime>
+    </File>
+    <File Include="image/neptuno.png">
+      <publishTime>08/31/2022 18:00:05</publishTime>
+    </File>
+    <File Include="image/openbook-blue.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/openbook-green.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/openbook-orange.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/openbook-red.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/overdue-dollar-coin.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/paid-dollar-coin.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/pdf32.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/pexels-photo-220453.jpeg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/rto-logo.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/smiley-widget.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/sort-down.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/sort-up.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/sort.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/switch-knob.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/tooltip-top-white.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/tooltip-top.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/ui-icons_444444_256x240.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/upcoming-dollar-coin.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/user-default-avatar.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/user-default-avatar.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/user-image.jpeg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/user-Image.png">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="image/working.gif">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="Img/937737.png">
+      <publishTime>06/14/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Img/art.png">
+      <publishTime>09/06/2022 15:47:02</publishTime>
+    </File>
+    <File Include="Img/cash-512.png">
+      <publishTime>06/14/2022 23:20:48</publishTime>
+    </File>
+    <File Include="Img/circulo.jpg">
+      <publishTime>09/06/2022 15:57:51</publishTime>
+    </File>
+    <File Include="Img/edit16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/glass24.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/glass32.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/lightbulb-512.png">
+      <publishTime>06/14/2022 23:21:12</publishTime>
+    </File>
+    <File Include="Img/log.jpg">
+      <publishTime>09/06/2022 15:50:51</publishTime>
+    </File>
+    <File Include="Img/logo.png">
+      <publishTime>05/29/2022 14:48:34</publishTime>
+    </File>
+    <File Include="Img/mac-512.png">
+      <publishTime>06/14/2022 23:20:36</publishTime>
+    </File>
+    <File Include="Img/no16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/no24.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/notes.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/ok16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/ok24.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/pdf_16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/plus_16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/plus_32.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/progressbar.gif">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/search.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/search_16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/SesionExpirada.jpg">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/SesionExpirada.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Img/sneakers-512.png">
+      <publishTime>06/14/2022 23:19:30</publishTime>
+    </File>
+    <File Include="Img/trash.png">
+      <publishTime>09/06/2022 15:47:14</publishTime>
+    </File>
+    <File Include="Img/up_16.png">
+      <publishTime>02/02/2022 12:38:44</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>09/06/2022 15:49:10</publishTime>
+    </File>
+    <File Include="Pages/AddBrands.aspx">
+      <publishTime>09/08/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Pages/AddNewProduct.aspx">
+      <publishTime>09/06/2022 14:48:35</publishTime>
+    </File>
+    <File Include="Pages/AdminEditProduct.aspx">
+      <publishTime>09/06/2022 14:52:39</publishTime>
+    </File>
+    <File Include="Pages/AdminEditPromotion.aspx">
+      <publishTime>09/08/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Pages/BrandDetails.aspx">
+      <publishTime>06/15/2022 19:14:14</publishTime>
+    </File>
+    <File Include="Pages/BrandEventDetails.aspx">
+      <publishTime>09/08/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Pages/BrandProductSales.aspx">
+      <publishTime>10/03/2022 08:01:36</publishTime>
+    </File>
+    <File Include="Pages/EditEvent.aspx">
+      <publishTime>06/15/2022 19:16:26</publishTime>
+    </File>
+    <File Include="Pages/EditProduct.aspx">
+      <publishTime>09/06/2022 14:50:18</publishTime>
+    </File>
+    <File Include="Pages/EditPromotion.aspx">
+      <publishTime>09/08/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Pages/EventDetails.aspx">
+      <publishTime>09/08/2022 23:21:00</publishTime>
+    </File>
+    <File Include="Pages/Events.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/EventsMenu.aspx">
+      <publishTime>05/27/2022 20:22:50</publishTime>
+    </File>
+    <File Include="Pages/FrequentQuestions.aspx">
+      <publishTime>06/16/2022 10:50:54</publishTime>
+    </File>
+    <File Include="Pages/ImportStock.aspx">
+      <publishTime>10/02/2022 16:51:57</publishTime>
+    </File>
+    <File Include="Pages/Information.aspx">
+      <publishTime>10/03/2022 18:25:25</publishTime>
+    </File>
+    <File Include="Pages/ListBrands.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/Menu.aspx">
+      <publishTime>09/06/2022 16:00:33</publishTime>
+    </File>
+    <File Include="Pages/MetricsMenu.aspx">
+      <publishTime>10/03/2022 06:54:08</publishTime>
+    </File>
+    <File Include="Pages/NewEvent.aspx">
+      <publishTime>06/29/2022 00:33:22</publishTime>
+    </File>
+    <File Include="Pages/NewProduct.aspx">
+      <publishTime>09/06/2022 14:50:06</publishTime>
+    </File>
+    <File Include="Pages/NewPromotion.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/NewSale.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/PercentageProdutTypeSales.aspx">
+      <publishTime>10/02/2022 23:58:45</publishTime>
+    </File>
+    <File Include="Pages/PercentageProfitMetrics.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/PercentageSalesMetrics.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/Permisos.aspx">
+      <publishTime>09/08/2022 00:58:04</publishTime>
+    </File>
+    <File Include="Pages/Products.aspx">
+      <publishTime>10/02/2022 17:19:58</publishTime>
+    </File>
+    <File Include="Pages/ProductSaleMetrics.aspx">
+      <publishTime>06/09/2022 17:45:10</publishTime>
+    </File>
+    <File Include="Pages/SaleDetails.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/Sales.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/SalesListEvent.aspx">
+      <publishTime>09/09/2022 00:14:20</publishTime>
+    </File>
+    <File Include="Pages/SalesListEventDetails.aspx">
+      <publishTime>10/02/2022 23:52:32</publishTime>
+    </File>
+    <File Include="Pages/Stock.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/StockListEvent.aspx">
+      <publishTime>09/08/2022 23:20:59</publishTime>
+    </File>
+    <File Include="Pages/StockListEventDetails.aspx">
+      <publishTime>09/08/2022 23:20:58</publishTime>
+    </File>
+    <File Include="Pages/TotalBrandsMetrics.aspx">
+      <publishTime>09/08/2022 23:20:58</publishTime>
+    </File>
+    <File Include="Pages/TotalEventMetrics.aspx">
+      <publishTime>09/08/2022 23:20:58</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>09/06/2022 15:48:45</publishTime>
+    </File>
+    <File Include="script/bootstrap.bundle.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/custom.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/dataTables.bootstrap5.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/dataTables.jqueryui.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/dataTables.select.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/editor.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/jquery-3.5.1.slim.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="script/jquery.dataTables.min.js">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="Scripts/chart.js">
+      <publishTime>06/08/2022 20:32:33</publishTime>
+    </File>
+    <File Include="Scripts/chart.min.js">
+      <publishTime>06/08/2022 20:32:32</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/03/2022 04:27:19</publishTime>
+    </File>
+    <File Include="style/bootstrap.min.css">
+      <publishTime>10/03/2022 04:31:11</publishTime>
+    </File>
+    <File Include="style/custom.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/custom.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/custom.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/dataTables.bootstrap5.min.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/dataTables.jqueryui.min.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/editor.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/brands.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/brands.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/brands.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/fontawesome.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/fontawesome.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/fontawesome.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/regular.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/regular.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/regular.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/solid.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/solid.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/solid.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/v4-shims.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/v4-shims.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/v4-shims.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_animated.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_bordered-pulled.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_core.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_fixed-width.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_icons.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_larger.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_list.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_mixins.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_rotated-flipped.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_screen-reader.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_shims.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_stacked.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/fontawesome/scss/_variables.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/jquery-ui.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/select.bootstrap5.min.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/select.jqueryui.min.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/style.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/style.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/style.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/table.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/table.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/table.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/var.css">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/var.css.map">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="style/var.scss">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="Web References/ReportsService/Reference.map">
+      <publishTime>06/16/2022 10:34:15</publishTime>
+    </File>
+    <File Include="Web References/Service/EventsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/InscriptionsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/PaymentsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/ProductsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/Product_typeDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/PromotionsDTO.datasource">
+      <publishTime>04/16/2023 17:11:18</publishTime>
+    </File>
+    <File Include="Web References/Service/Promotions_ProductsDTO.datasource">
+      <publishTime>04/16/2023 17:11:18</publishTime>
+    </File>
+    <File Include="Web References/Service/Reference.map">
+      <publishTime>04/16/2023 17:11:18</publishTime>
+    </File>
+    <File Include="Web References/Service/RolesDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/SalesDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/Sales_detailsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/Sales_PaymentsDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/SecurityDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/StockDTO.datasource">
+      <publishTime>04/16/2023 17:11:19</publishTime>
+    </File>
+    <File Include="Web References/Service/UsersDTO.datasource">
+      <publishTime>04/16/2023 17:11:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/16/2023 17:19:46</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.eot">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.ttf">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-brands-400.woff2">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.eot">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.ttf">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-regular-400.woff2">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.eot">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.svg">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.ttf">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+    <File Include="webfonts/fa-solid-900.woff2">
+      <publishTime>07/23/2022 19:03:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

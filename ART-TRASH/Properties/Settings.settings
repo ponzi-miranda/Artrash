@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ArtTrash.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ArtTrash_ReportsService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://190.244.98.245:8053/ReportsService/Service.asmx</Value>
+    </Setting>
+    <Setting Name="ArtTrash_Service_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:55370/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

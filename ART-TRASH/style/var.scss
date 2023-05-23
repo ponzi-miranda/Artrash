@@ -1,0 +1,227 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import "fontawesome/scss/fontawesome.scss";
+@import "fontawesome/scss/solid.scss";
+
+// bg, element color
+
+$global-background: #FAFBFB;
+
+$primary-bg     : #FAFBFB;
+$border-color   : #DEE3E9;
+$secondary-bg   : #5ae0e0;
+$white          : #ffffff;
+$primary-color  : #1A97F5;
+$primary-dark   : #2D7FFC;
+$info-color     : #0DB4F7;
+$info-dark      : #0CA3DF;
+$success-color  : #00CEC3;
+$success-dark   : #02b6ad;
+$danger-color   : #E85858;
+$danger-dark    : #E44747;
+$faded-primary  : #BBE2FF;
+$head-bg        : #F0F8FF;
+
+$unread-color    : #FF9422;
+$closed-color    : #00A3F7;
+$open-color      : #48D973;
+$declined-color  : #FF5F5F;
+$archieved-color : #B84FF9;
+
+$border-gray         : #DEE3E9;
+$border-active       : rgba(26, 151, 245, 0.9);
+$tableborder         : #DEE3E9;
+$formDisabled        : #EFEFEF;
+$offwhite2           : #F2F2F2;
+$offwhite            : #F8F8F8;
+
+// text color
+$text-color         : #313131;
+$text-darkgray      : #515151;
+$text-mediumgray    : #8b94a1;
+$medium-gray-text   : #AAAAAA;
+$text-light         : #C3C3C3;
+$placeholder        : #A5A5A5;
+
+// font style
+$global-font-family: 'DM Sans', sans-serif;
+$global-secondary-font  : 'DM Sans', sans-serif;
+$global-heading-size: 1.563rem;
+$global-font-size: 0.938rem;
+
+$font-regular        : 400;
+$font-medium         : 500;
+$font-bold           : 700;
+
+$formfield-height    : 3rem;
+$formfield-sm-height : 2.625rem;
+
+// Responsive Screens
+$hd-screen           : 1700px;
+$xl-screen           : 1399.98px;
+$lg-screen           : 1199.98px;
+$md-screen           : 991.98px;
+$sm-screen           : 767.98px;
+$min-sm-screen       : 768px;
+$xs-screen           : 575.98px;
+$min-md-screen       : 992px;
+$min-lg-screen       : 1200px;
+$max-xs-screen       : 575px;
+
+$lg-screen-h         : 1080px;
+$lg-screen-h         : 1079.98px;
+$md-screen-h         : 1023.98px;
+$sm-screen-h         : 767.98px;
+
+@mixin transition($time) {transition: $time ease all;} //Transition Time
+
+// Font Awesome
+@mixin FontAwesome(){
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '';
+}
+
+// Border Radius
+@mixin borderRadius ($br) {
+    @if $br==0 {
+        border-radius: 0;
+    }
+    @else if $br==1 {
+        border-radius: 1px;
+    }
+    @else if $br==2 {
+        border-radius: 2px;
+    }
+    @else if $br==3 {
+        border-radius: 3px;
+    }
+    @else if $br==4 {
+        border-radius: 4px;
+    }
+    @else if $br==5 {
+        border-radius: 5px;
+    }
+    @else if $br==6 {
+        border-radius: 6px;
+    }
+    @else if $br==8 {
+        border-radius: 8px;
+    }
+    @else if $br==10 {
+        border-radius: 10px;
+    }
+    @else if $br==12 {
+        border-radius: 12px;
+    }
+    @else if $br==15 {
+        border-radius: 15px;
+    }
+    @else if $br==20 {
+        border-radius: 20px;
+    }
+    @else if $br==25 {
+        border-radius: 25px;
+    }
+    @else if $br==30 {
+        border-radius: 30px;
+    }
+    @else if $br==40 {
+        border-radius: 40px;
+    }
+    @else if $br==round {
+        border-radius: 50%;
+    }
+}
+
+@mixin boxShadow ($sh) {
+    @if $sh==card {
+        box-shadow: 0px 7px 30px rgba(90, 114, 123, 0.11);
+    }
+    @else if $sh==0 {
+        box-shadow: none;
+    }
+}
+
+@mixin icon($size) {
+    width: $size;
+    height: $size;
+    display: inline-block;
+}
+@mixin feathers($size){
+    width: $size;
+    height: $size;
+    min-width: $size;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@mixin card {
+    background-color: $white;
+    @include borderRadius(10);
+    @include boxShadow(card);
+    border: none;
+}
+
+@mixin verticalScroll {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+@mixin btnIcon {
+    min-width: auto !important;
+    width: auto;
+    position: relative;
+    i{margin: 0;}
+    span{
+        overflow: unset;
+        pointer-events: none;
+        @include transition(0.3s);
+        display: inline-block;
+        position: absolute;
+        z-index: 1;
+        color: $text-mediumgray;
+        background-color: $white;
+        border: 1px solid $border-color;
+        box-shadow: 0px 4px 20px rgba(90,114,123,.11);
+        @include borderRadius(4);
+        white-space: nowrap;
+        font-size: 0.813rem;
+        opacity: 0;
+        padding: 0 0.438rem;
+        top: 100%;
+        font-weight: $font-medium;
+        left: 50%;
+        transform: translateX(-50%);
+        &::after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 9px;
+            height: 6px;
+            background-image: url(../image/tooltip-top.svg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+    }
+    &:hover{
+        span{
+            opacity: 1;
+            top: calc(100% + 5px);
+        }
+    }
+}

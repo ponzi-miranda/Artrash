@@ -1,0 +1,17 @@
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.dll.config
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.dll
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.pdb
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\stdole.dll
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.CopyComplete
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.dll
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.pdb
+C:\Users\Gonzalo Air\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.AssemblyReference.cache
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.dll.config
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.dll
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\bin\ArtTrashService.pdb
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.CoreCompileInputs.cache
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.CopyComplete
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.dll
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.pdb
+C:\Users\gongm\source\repos\ART-TRASH\ART-TRASH-SERVICE\obj\Debug\ArtTrashService.csproj.AssemblyReference.cache

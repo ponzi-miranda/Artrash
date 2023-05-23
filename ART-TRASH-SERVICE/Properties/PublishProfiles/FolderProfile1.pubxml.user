@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Gonzalo Air\Desktop\services</_PublishTargetUrl>
+    <History>True|2022-06-16T14:36:22.2368521Z;True|2022-06-16T11:33:01.8945456-03:00;True|2022-06-16T01:01:49.6503882-03:00;True|2022-06-16T00:55:16.3705091-03:00;True|2022-06-15T20:21:56.2742521-03:00;False|2022-06-15T20:21:15.4219994-03:00;False|2022-06-15T20:20:32.6498457-03:00;False|2022-06-15T20:20:04.2372193-03:00;True|2022-06-13T19:28:30.4662736-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/dbs.json">
+      <publishTime>02/02/2022 12:38:42</publishTime>
+    </File>
+    <File Include="bin/ArtTrashService.dll">
+      <publishTime>06/16/2022 11:36:20</publishTime>
+    </File>
+    <File Include="bin/ArtTrashService.pdb">
+      <publishTime>06/16/2022 11:36:20</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.CrystalReports.Engine.dll">
+      <publishTime>02/10/2009 12:40:00</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.ReportSource.dll">
+      <publishTime>02/10/2009 12:40:00</publishTime>
+    </File>
+    <File Include="bin/CrystalDecisions.Shared.dll">
+      <publishTime>02/10/2009 12:39:56</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>05/06/2021 15:41:24</publishTime>
+    </File>
+    <File Include="Reports/IMG_Oportunidad - copia.rpt">
+      <publishTime>06/13/2022 21:21:28</publishTime>
+    </File>
+    <File Include="Reports/IMG_OrdenServicio - copia.rpt">
+      <publishTime>06/12/2022 23:19:53</publishTime>
+    </File>
+    <File Include="Reports/IMG_OrdenServicio_v01.rpt">
+      <publishTime>06/12/2022 23:33:58</publishTime>
+    </File>
+    <File Include="Service.asmx">
+      <publishTime>02/02/2022 12:38:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/13/2022 19:28:29</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
