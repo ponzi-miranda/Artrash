@@ -1,0 +1,23 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ART-TRASH
+/ART-TRASH/bin/ArtTrash.dll
+/ART-TRASH/bin/ArtTrash.pdb
+/ART-TRASH/bin/ArtTrashService.dll
+/ART-TRASH/bin/ArtTrashService.pdb
+/ART-TRASH/obj/Debug/ArtTrash.csproj.AssemblyReference.cache
+/ART-TRASH/obj/Debug/ArtTrash.csproj.CoreCompileInputs.cache
+/ART-TRASH/obj/Debug/ArtTrash.csproj.FileListAbsolute.txt
+/ART-TRASH/obj/Debug/ArtTrash.pdb
+/ART-TRASH/obj/Debug/ArtTrash.dll
+/ART-TRASH/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/ART-TRASH-SERVICE/bin/ArtTrashService.dll
+/ART-TRASH-SERVICE/bin/ArtTrashService.pdb
+/ART-TRASH-SERVICE/obj/Debug/ArtTrashService.csproj.AssemblyReference.cache
+/ART-TRASH-SERVICE/obj/Debug/ArtTrashService.csproj.CoreCompileInputs.cache
+/ART-TRASH-SERVICE/obj/Debug/ArtTrashService.csproj.FileListAbsolute.txt
+/ART-TRASH-SERVICE/obj/Debug/ArtTrashService.dll
+/ART-TRASH-SERVICE/obj/Debug/ArtTrashService.pdb
+/ART-TRASH-SERVICE/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
